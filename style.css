@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .editor-container {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+  }
+  
+  .editor-toolbar {
+    padding: 10px;
+    background-color: #333;
+    color: rgb(243, 242, 235);
+  }
+  
+  #code-editor {
+    flex: 1;
+    border: none;
+    resize: none;
+    padding: 10px;
+  }
+  
+  #output-frame {
+    flex: 1;
+    border:none;
+    background-color: #f0e7a5;
+  }
+  
